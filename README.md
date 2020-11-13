@@ -1,6 +1,8 @@
 # README #
 
-##Purpose
+note: This project is stale. Refer to previous models for full functionality. This project was effectively replaced by "gold" model, which simulates handedness, bias, and variance before and after neural knockout. That project is led by Sumner Norman, John Krakauer, and Jeff Goldsmith. The repo is not yet published. - SL Norman (Nov 2020)
+
+## Purpose
 
 A firing-rate neural network model of M1 and SMA before and after stroke. We explore the roles of finger individuation and strength resulting from two motoneruonal pools.
 
@@ -16,17 +18,17 @@ Model is based on the model described in: [How do strength and coordination reco
 
 ## Authors
 
-* **Sumner Norman, Caltech** - *Original build* [GitHub](https://github.com/sumner15) | [bitbucket](https://bitbucket.org/sumner15/)
-* **Firas Mawase, Johns Hopkins** 
+* **Sumner Norman, Caltech** - *Original build* [GitHub](https://github.com/sumner15) 
+* **Firas Mawase, Johns Hopkins** - intended collaborator (did not materialize)
 
 Please feel free to add your name to this list!
 
 ## Model Definition
 
-###stochastic search
+### stochastic search
 during each simulated movement, each neuron firing rate is varied stochastically. 
 
-###neuron variability
+### neuron variability
 The amount of stochastic noise encountered by a specific neuron (ssd). A bimodal set of lognormal distributions are sampled for each set of neurons.
 
 ### force output
